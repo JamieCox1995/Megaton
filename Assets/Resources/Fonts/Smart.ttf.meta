@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0bba137b0ed70a44e94039b881991c2b
+timeCreated: 1507725209
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Smart
+  fontNames:
+  - Smart
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

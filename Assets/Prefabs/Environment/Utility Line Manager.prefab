@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1567082492587704}
+  m_IsPrefabParent: 1
+--- !u!1 &1567082492587704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4946712772250126}
+  - component: {fileID: 114218372271718434}
+  m_Layer: 0
+  m_Name: Utility Line Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4946712772250126
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1567082492587704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114218372271718434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1567082492587704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab22ef5087c56b74f8df5463a3995dfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UtilityPoleInstance: {fileID: 100000, guid: bcb3a2de8b8911c408b025d5a6619612, type: 3}
+  CableMaterial: {fileID: 2100000, guid: b1e053c6dd851f540b63984d8933548a, type: 2}
+  LineSegmentCount: 12
+  CableThickness: 0.05
+  Connectors:
+  - Position: {x: -0.46, y: 8, z: 0.9}
+    Type: 0
+    Id: 0
+  - Position: {x: -0.46, y: 8, z: 0.4}
+    Type: 0
+    Id: 1
+  - Position: {x: -0.46, y: 8, z: -0.4}
+    Type: 0
+    Id: 2
+  - Position: {x: -0.46, y: 8, z: -0.9}
+    Type: 0
+    Id: 3
+  - Position: {x: -0.46, y: 8.75, z: 0.9}
+    Type: 0
+    Id: 4
+  - Position: {x: -0.46, y: 8.75, z: 0.4}
+    Type: 0
+    Id: 5
+  - Position: {x: -0.46, y: 8.75, z: -0.4}
+    Type: 0
+    Id: 6
+  - Position: {x: -0.46, y: 8.75, z: -0.9}
+    Type: 0
+    Id: 7
+  - Position: {x: 0.46, y: 8, z: 0.9}
+    Type: 1
+    Id: 0
+  - Position: {x: 0.46, y: 8, z: 0.4}
+    Type: 1
+    Id: 1
+  - Position: {x: 0.46, y: 8, z: -0.4}
+    Type: 1
+    Id: 2
+  - Position: {x: 0.46, y: 8, z: -0.9}
+    Type: 1
+    Id: 3
+  - Position: {x: 0.46, y: 8.75, z: 0.9}
+    Type: 1
+    Id: 4
+  - Position: {x: 0.46, y: 8.75, z: 0.4}
+    Type: 1
+    Id: 5
+  - Position: {x: 0.46, y: 8.75, z: -0.4}
+    Type: 1
+    Id: 6
+  - Position: {x: 0.46, y: 8.75, z: -0.9}
+    Type: 1
+    Id: 7
+  UtilityLines: []

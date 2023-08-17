@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c8f0c432845a5b74bae84edf88b600cc
+timeCreated: 1479141591
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - SF WADIM GIANT
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 34ee0378e8424014386eb1f5a3f674f8, type: 3}
+  - {fileID: 12800000, guid: 1421196b285dce74d836d41f4ca354cb, type: 3}
+  - {fileID: 12800000, guid: c53a6afbda32ab649a1cd153457b67cc, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

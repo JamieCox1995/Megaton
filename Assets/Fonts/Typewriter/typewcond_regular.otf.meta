@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: fecf9052ca0ab7c43b13781574f6437a
+timeCreated: 1529573359
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Typewriter_Condensed
+  fontNames:
+  - Typewriter_Condensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 162a897ea3ceb0d4abd5bb4773232397, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

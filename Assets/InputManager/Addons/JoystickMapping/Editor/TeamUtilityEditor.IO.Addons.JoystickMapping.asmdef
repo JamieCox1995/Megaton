@@ -1,0 +1,12 @@
+{
+    "name": "TeamUtilityEditor.IO.Addons.JoystickMapping",
+    "references": [
+        "TeamUtility.IO",
+        "TeamUtility.IO.Addons",
+        "TeamUtilityEditor.IO"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

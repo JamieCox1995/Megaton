@@ -1,0 +1,191 @@
+﻿#pragma enable_d3d11_debug_symbols
+
+#define DEFAULT_TEXTURE_THREAD_GROUP_SIZE 16
+#define COMMAND_BUFFER_TEXTURE_THREAD_GROUP_SIZE 8
+#define COMMAND_BUFFER_THREAD_GROUP_SIZE 4
+#define COMMAND_BLOCK_SIZE 32
+
+// The time since the previous frame. [0, +inf]
+float DeltaTime;
+
+// The color of the phosphor.
+float4 PhosphorColor;
+// The distance the phosphor bleeds from its true location. (0, +inf]
+float PhosphorBleed;
+// The responsiveness of the phosphor to excitation by the electron beam. (0, +inf]
+float PhosphorResponse;
+// The time it takes for the brightness of the phosphor to decay to the threshold. (0, +inf]
+float DecayTime;
+// The proportion of the original brightness of the phosphor before it is considered to be fully decayed. (0, 1)
+float DecayThreshold;
+
+// The size of the RenderTexture.
+int TextureSize;
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float> FadePhosphorResult;
+RWTexture2D<float> DebugPhosphorResult;
+RWTexture2D<float> ActivatePhosphorResult;
+Texture2D<float> ColorizePhosphorInput;
+RWTexture2D<float4> ColorizePhosphorResult;
+
+// Allows per-pixel locking of a RWTexture2D.
+RWTexture2D<int> Mutex;// : register(u0);
+
+// Represents interactions with the phosphor screen.
+struct PhosphorCommand
+{
+	// The position of the phosphor event. x: [-1, 1]; y: [-1, 1]
+	float2 position;
+	// The time that the phosphor event occurred. [0, +inf]
+	float time;
+	// Whether the electron beam is active for this event. { 0, 1 }
+	uint isElectronBeamActive;
+};
+
+// The phosphor commands to draw.
+StructuredBuffer<PhosphorCommand> Commands;
+
+// The amount of phosphor that should persist to the next frame.
+#define DECAY_MULTIPLIER (pow(abs(DecayThreshold), DeltaTime / DecayTime))
+
+// Maps the vector v from screen space to texture space.
+#define TEXTURE_SPACE(v) ((uint2)trunc(TextureSize * (float2(0.5, 0.5) + 0.5 * v)))
+
+// Gets the additional output for the phosphor when it is already outputting x.
+#define PHOSPHOR_ADD(x) (PhosphorResponse * exp(-x))
+
+// Gets the bleed amount for a pixel a distance d from the true location of the lit phosphor element.
+#define BLEED_FALLOFF(d) (saturate(lerp(1, 0, d / PhosphorBleed))) //(1 - smoothstep(0, PhosphorBleed, d))
+
+// Applies exponential decay to the whole phosphor screen, resulting in a fade effect.
+#pragma kernel FadePhosphor
+[numthreads(DEFAULT_TEXTURE_THREAD_GROUP_SIZE, DEFAULT_TEXTURE_THREAD_GROUP_SIZE, 1)]
+void FadePhosphor(uint3 id : SV_DispatchThreadID)
+{
+	//FadePhosphorResult[id.xy] = FadePhosphorInput[id.xy] * DECAY_MULTIPLIER;
+	FadePhosphorResult[id.xy] *= DECAY_MULTIPLIER;
+}
+
+// Flushes the entire phosphor screen with colour. Can be used to quickly determine whether the compute
+// shader works correctly.
+#pragma kernel DebugPhosphor
+[numthreads(DEFAULT_TEXTURE_THREAD_GROUP_SIZE, DEFAULT_TEXTURE_THREAD_GROUP_SIZE, 1)]
+void DebugPhosphor(uint3 id : SV_DispatchThreadID)
+{
+	DebugPhosphorResult[id.xy] = 1.0;
+}
+
+// Calculates the distance from a point p to the closest point on the line segment defined by the
+// points start and end.
+float DistanceToLineSegment(float2 start, float2 end, float2 p)
+{
+	float2 dir = end - start;
+
+	float sqrMagnitude = dir.x * dir.x + dir.y * dir.y;
+
+	if (sqrMagnitude == 0) return distance(start, p);
+
+	float t = saturate(dot(p - start, dir) / sqrMagnitude);
+	float2 projection = start + t * dir;
+
+	return distance(p, projection);
+}
+
+// Processes the command buffer and applies additional power to the affected phosphor elements.
+#pragma kernel ActivatePhosphor
+[numthreads(DEFAULT_TEXTURE_THREAD_GROUP_SIZE, DEFAULT_TEXTURE_THREAD_GROUP_SIZE, 1)]
+void ActivatePhosphor(uint3 id : SV_DispatchThreadID)
+{
+	uint count, stride;
+	Commands.GetDimensions(count, stride);
+
+	float currentActivation = ActivatePhosphorResult[id.xy];
+
+	PhosphorCommand previous, current;
+	for (uint i = 0; i < count; i++)
+	{
+		current = Commands[i];
+
+		uint2 currentPos = TEXTURE_SPACE(current.position);
+		uint2 previousPos = TEXTURE_SPACE(previous.position);
+
+		int isLine = current.isElectronBeamActive * previous.isElectronBeamActive;
+
+		float lineDistance = DistanceToLineSegment(previousPos, currentPos, id.xy);
+		
+		float ptDistance = distance(currentPos, id.xy);
+
+		float dist = lerp(ptDistance, lineDistance, isLine);
+
+		currentActivation += current.isElectronBeamActive * PHOSPHOR_ADD(currentActivation) * BLEED_FALLOFF(dist);
+
+		previous = current;
+	}
+
+	ActivatePhosphorResult[id.xy] = currentActivation;
+}
+
+// Waits until the thread has exclusive access to the RWTexture2D at this pixel.
+void GetMutex(uint2 id)
+{
+	[loop] while (true)
+	{
+		uint orig;
+
+		InterlockedCompareExchange(Mutex[id], 0, 1, orig);
+
+		if (orig == 0) break; // exchange succeeded
+	}
+}
+
+// Releases this thread's exclusive access to the RWTexture2D at this pixel.
+void ReleaseMutex(uint2 id)
+{
+	uint _;
+	InterlockedCompareExchange(Mutex[id], 1, 0, _);
+}
+
+// Processes the command buffer and applies additional power to the affected phosphor elements.
+#pragma kernel ActivatePhosphor2
+[numthreads(COMMAND_BUFFER_TEXTURE_THREAD_GROUP_SIZE, COMMAND_BUFFER_TEXTURE_THREAD_GROUP_SIZE, COMMAND_BUFFER_THREAD_GROUP_SIZE)]
+void ActivatePhosphor2(uint3 id : SV_DispatchThreadID)
+{
+	float initialActivation = ActivatePhosphorResult[id.xy];
+	float currentActivation = initialActivation;
+
+	PhosphorCommand previous, current;
+	// ensure the blocks overlap to enable line drawing without breaks
+	[unroll] for (int i = 1; i <= COMMAND_BLOCK_SIZE; i++)
+	{
+		previous = Commands[id.z * COMMAND_BLOCK_SIZE + i - 1];
+		current = Commands[id.z * COMMAND_BLOCK_SIZE + i];
+
+		uint2 currentPos = TEXTURE_SPACE(current.position);
+		uint2 previousPos = TEXTURE_SPACE(previous.position);
+
+		int isLine = current.isElectronBeamActive * previous.isElectronBeamActive;
+
+		float lineDistance = DistanceToLineSegment(previousPos, currentPos, id.xy);
+
+		float ptDistance = distance(currentPos, id.xy);
+
+		float dist = lerp(ptDistance, lineDistance, isLine);
+
+		currentActivation += current.isElectronBeamActive * PHOSPHOR_ADD(currentActivation) * BLEED_FALLOFF(dist);
+	}
+
+	GetMutex(id.xy);
+	ActivatePhosphorResult[id.xy] += currentActivation - initialActivation;
+	ReleaseMutex(id.xy);
+}
+
+// Tints the phosphor with the given color.
+#pragma kernel ColorizePhosphor
+[numthreads(DEFAULT_TEXTURE_THREAD_GROUP_SIZE, DEFAULT_TEXTURE_THREAD_GROUP_SIZE, 1)]
+void ColorizePhosphor(uint3 id : SV_DispatchThreadID)
+{
+	float intensity = ColorizePhosphorInput[id.xy];
+
+	ColorizePhosphorResult[id.xy] = float4(intensity, intensity, intensity, intensity) * PhosphorColor;
+}

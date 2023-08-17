@@ -1,0 +1,15 @@
+using TotalDistraction.ServiceLocation;
+using TotalDistraction.ServiceLocation.DefaultServices;
+
+public class #SCRIPTNAME# : StartupBase
+{
+    protected override void RegisterServices()
+    {
+		// Register the default services.
+        base.RegisterServices();
+
+        // Use ServiceLocator.Register<TService, TImpl>() or
+		// ServiceLocator.RegisterForScenes<TService, TImpl>(string[])
+		// to register the services needed by the game.
+    }
+}

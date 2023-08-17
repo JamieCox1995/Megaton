@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ProjectileDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <primaryStats>
+    <ProjectileStats>
+      <name>Standard</name>
+      <cost>10000</cost>
+      <description>The Standard Projectile will explode on impact with any object.</description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+    <ProjectileStats>
+      <name>Airburst</name>
+      <cost>100000</cost>
+      <description>The Airburst Projectile will explode when it is 10 metres above any object. Players should take extra care when planning trajectories!</description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+    <ProjectileStats>
+      <name>Bouncing</name>
+      <cost>250000</cost>
+      <description>The bouncing bomb can be detonated at any point after first contact with an object by the player. It will bounce considerable more than any of the other projectile types.</description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+    <ProjectileStats>
+      <name>Cluster</name>
+      <cost>500000</cost>
+      <description>The Cluster Projectile has the ability to deploy a large number of smaller projectiles at any time. This can be used to affect a large area with smaller explosions.</description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+  </primaryStats>
+  <pickupStats>
+    <ProjectileStats>
+      <name>Homing</name>
+      <cost>750000</cost>
+      <description>The Homing Projectile will head towards the proedicted impact location after it has been armed. The Projectile will take 5 seconds to arm itself after it has been fired.</description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+    <ProjectileStats>
+      <name>Gravity</name>
+      <cost>1000000</cost>
+      <description>The Gravity Projectile will reverse the effect of gravity within a radius around the projectile. Any debris or loose objects will be catapulted into the air.</description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+    <ProjectileStats>
+      <name>Singularity</name>
+      <cost>5000000</cost>
+      <description>The Singularity Projectile creates a small blackhole on impact. The blackhole will attract objects around it and will grow larger when an object enters the Event Horizon. </description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+    <ProjectileStats>
+      <name>Nuke</name>
+      <cost>1E+07</cost>
+      <description>The Nuke has the ability to devestate large areas which a single blast. It explodes on impact with any object and vapourises most within the blast radius.</description>
+      <unlocked>true</unlocked>
+    </ProjectileStats>
+  </pickupStats>
+</ProjectileDatabase>

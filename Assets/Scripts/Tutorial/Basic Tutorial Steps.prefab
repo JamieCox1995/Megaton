@@ -1,0 +1,1209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1666908536358768}
+  m_IsPrefabParent: 1
+--- !u!1 &1050430450220410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4067652953504828}
+  - component: {fileID: 114374894744578264}
+  m_Layer: 0
+  m_Name: Step 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1075303161400422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4983266369499008}
+  - component: {fileID: 114188147906463856}
+  m_Layer: 0
+  m_Name: Step 21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1088620472838004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4065615981372952}
+  - component: {fileID: 114688292242639552}
+  m_Layer: 0
+  m_Name: Step 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1109302389171000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4912189112809470}
+  - component: {fileID: 114599234025710940}
+  m_Layer: 0
+  m_Name: Step 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1160002317073954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4826669262837732}
+  - component: {fileID: 114904755096413298}
+  m_Layer: 0
+  m_Name: Step 22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1185546383337724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4886985027961900}
+  - component: {fileID: 114441633839276880}
+  m_Layer: 0
+  m_Name: Step 41
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1186668770474646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4492476439479698}
+  - component: {fileID: 114704583280792388}
+  m_Layer: 0
+  m_Name: Step 00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1205298964963364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4449377121659676}
+  - component: {fileID: 114168444875742708}
+  m_Layer: 0
+  m_Name: Step 31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1239461548292630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4626270014696396}
+  - component: {fileID: 114027675314155862}
+  m_Layer: 0
+  m_Name: Step 33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1305475563049332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4179764226175768}
+  - component: {fileID: 114358294811896460}
+  m_Layer: 0
+  m_Name: Step 40
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1339846723964720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4597132058014762}
+  - component: {fileID: 114900830457933850}
+  m_Layer: 0
+  m_Name: Step 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1340691499378670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4224556352000068}
+  - component: {fileID: 114202427220073180}
+  m_Layer: 0
+  m_Name: Step 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1537272993858376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4506478889819958}
+  - component: {fileID: 114704511883409772}
+  m_Layer: 0
+  m_Name: Step 50
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1547446559188424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4381166918820310}
+  - component: {fileID: 114863307507744110}
+  m_Layer: 0
+  m_Name: Step 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1575430488828182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4428987127985706}
+  - component: {fileID: 114423661576069044}
+  m_Layer: 0
+  m_Name: Step 15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1666908536358768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4659072523256088}
+  - component: {fileID: 114611456874156590}
+  m_Layer: 0
+  m_Name: Basic Tutorial Steps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1670204385397536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4201717886867198}
+  - component: {fileID: 114576126354519406}
+  m_Layer: 0
+  m_Name: Step 34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1673596165966602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4514572349560608}
+  - component: {fileID: 114671981527125316}
+  m_Layer: 0
+  m_Name: Step 30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1718550042890714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4457355785902854}
+  - component: {fileID: 114074730529124676}
+  m_Layer: 0
+  m_Name: Step 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1931443642062318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4571520649638526}
+  - component: {fileID: 114995384281391586}
+  m_Layer: 0
+  m_Name: Step 02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1987380953530726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4569599684879716}
+  - component: {fileID: 114648083522047650}
+  m_Layer: 0
+  m_Name: Step 32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4065615981372952
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088620472838004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4067652953504828
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050430450220410}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4179764226175768
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305475563049332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4201717886867198
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670204385397536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4224556352000068
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340691499378670}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4381166918820310
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547446559188424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4428987127985706
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575430488828182}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4449377121659676
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205298964963364}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4457355785902854
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1718550042890714}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4492476439479698
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1186668770474646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4506478889819958
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537272993858376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4514572349560608
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1673596165966602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4569599684879716
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1987380953530726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4571520649638526
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931443642062318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4597132058014762
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1339846723964720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4626270014696396
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239461548292630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4659072523256088
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666908536358768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4492476439479698}
+  - {fileID: 4597132058014762}
+  - {fileID: 4571520649638526}
+  - {fileID: 4065615981372952}
+  - {fileID: 4224556352000068}
+  - {fileID: 4912189112809470}
+  - {fileID: 4457355785902854}
+  - {fileID: 4067652953504828}
+  - {fileID: 4428987127985706}
+  - {fileID: 4381166918820310}
+  - {fileID: 4983266369499008}
+  - {fileID: 4826669262837732}
+  - {fileID: 4514572349560608}
+  - {fileID: 4449377121659676}
+  - {fileID: 4569599684879716}
+  - {fileID: 4626270014696396}
+  - {fileID: 4201717886867198}
+  - {fileID: 4179764226175768}
+  - {fileID: 4886985027961900}
+  - {fileID: 4506478889819958}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4826669262837732
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160002317073954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4886985027961900
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185546383337724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4912189112809470
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109302389171000}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4983266369499008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075303161400422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4659072523256088}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114027675314155862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239461548292630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - While holding {Slow Time}, time will slow down.
+  - When in Aftershock mode, it is possible to steer the projectile towards other
+    buildings using {Horizontal.group}.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 1
+  DisableInputs: 1
+  UseHighlight: 0
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  HighlightColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114074730529124676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1718550042890714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98abc23d0dd2e2248960acd3d8f20375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - While in targeting mode, use {Target Camera Rotation} to rotate the camera.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: 0
+    width: 250
+    height: 300
+  InputAxis: Target Camera Rotation
+  MinimumInputTime: 0.2
+--- !u!114 &114168444875742708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205298964963364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58834ba443ff0b842b00d77db6aaf0cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText: []
+  PanelRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  LaunchElevation: 60
+  LaunchRotation: -20
+  LaunchForce: 45
+  LaunchTime: 4
+  LaunchDelay: 1.5
+--- !u!114 &114188147906463856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075303161400422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - After the projectile has exploded, the game enters <concept>free camera mode</concept>,
+    which lets you survey your destruction.
+  - Use {Camera Vertical.group} and {Vertical.group} to move the camera around.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 1
+  DisableInputs: 1
+  UseHighlight: 0
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  HighlightColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114202427220073180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1340691499378670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98abc23d0dd2e2248960acd3d8f20375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - Use {Horizontal} to rotate the mortar right and left.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: 0
+    width: 250
+    height: 300
+  InputAxis: Horizontal
+  MinimumInputTime: 0.2
+--- !u!114 &114358294811896460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305475563049332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - Each level in the game has a <concept>pickup crate</concept> somewhere within
+    it.
+  - By causing an explosion close enough to it, you can collect it, which swaps your
+    projectile out for a more powerful secondary type for a single turn.
+  - But be careful, as an explosion can also blast it elsewhere on the map!
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 1
+  DisableInputs: 1
+  UseHighlight: 0
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  HighlightColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114374894744578264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050430450220410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - The rotation mode can be changed in the options menu to a <concept>free rotation</concept>
+    mode.
+  - This can be activated by holding {FreeLook} and using {Camera Horizontal}.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: 0
+    width: 250
+    height: 300
+  PauseGame: 1
+  DisableInputs: 1
+  UseHighlight: 0
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  HighlightColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114423661576069044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575430488828182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - The display in the bottom right shows the current elevation and power of the mortar.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 0
+  DisableInputs: 1
+  UseHighlight: 1
+  HighlightAnchor: 8
+  HighlightRect:
+    serializedVersion: 2
+    x: -80
+    y: 75
+    width: 160
+    height: 150
+  HighlightColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &114441633839276880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185546383337724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - Another feature each level has is an <concept>event</concept> unique to it.
+  - Destroying some key part of the level sets the event in motion, which will have
+    a significant effect.
+  - This effect may be good or bad, so assess the situation if you think you've found
+    one.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 1
+  DisableInputs: 1
+  UseHighlight: 0
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  HighlightColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114576126354519406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670204385397536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - The bar in the bottom left empties as you continue to cause damage.
+  - When it is fully empty, you can use {Launch} to re-explode the projectile and
+    cause even more damage.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 1
+  DisableInputs: 1
+  UseHighlight: 1
+  HighlightAnchor: 6
+  HighlightRect:
+    serializedVersion: 2
+    x: 192.5
+    y: 50
+    width: 375
+    height: 90
+  HighlightColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &114599234025710940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109302389171000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98abc23d0dd2e2248960acd3d8f20375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - Sometimes something you want to blow up is a bit too far away, but {Modify Force}
+    will increase and decrease the power of the mortar.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: 0
+    width: 250
+    height: 300
+  InputAxis: Modify Force
+  MinimumInputTime: 0.2
+--- !u!114 &114611456874156590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666908536358768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7ee2b8a62585844ac958a9218b0e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _steps:
+  - {fileID: 114704583280792388}
+  - {fileID: 114900830457933850}
+  - {fileID: 114995384281391586}
+  - {fileID: 114688292242639552}
+  - {fileID: 114202427220073180}
+  - {fileID: 114599234025710940}
+  - {fileID: 114074730529124676}
+  - {fileID: 114374894744578264}
+  - {fileID: 114423661576069044}
+  - {fileID: 114863307507744110}
+  - {fileID: 114188147906463856}
+  - {fileID: 114904755096413298}
+  - {fileID: 114671981527125316}
+  - {fileID: 114168444875742708}
+  - {fileID: 114648083522047650}
+  - {fileID: 114027675314155862}
+  - {fileID: 114576126354519406}
+  - {fileID: 114358294811896460}
+  - {fileID: 114441633839276880}
+  - {fileID: 114704511883409772}
+--- !u!114 &114648083522047650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1987380953530726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7538da2c0d0b2a84e83f2ee016d28005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText: []
+  PanelRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+--- !u!114 &114671981527125316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1673596165966602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - On the last turn, a feature called <concept>Aftershock</concept> becomes available.
+  - This gives you an opportunity to cause some extra destruction to get a higher
+    final score.
+  - This feature will be introduced now. Let's fast forward to just after the last
+    projectile has detonated.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 0
+  DisableInputs: 1
+  UseHighlight: 0
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  HighlightColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114688292242639552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088620472838004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98abc23d0dd2e2248960acd3d8f20375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - Use {Vertical} to increase and decrease the elevation of the mortar.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: 0
+    width: 250
+    height: 300
+  InputAxis: Vertical
+  MinimumInputTime: 0.2
+--- !u!114 &114704511883409772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537272993858376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4c97e62f6ed85418ebb5f0723fb8b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - That's it for the tutorial.
+  - Go forth and cause chaos!
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+--- !u!114 &114704583280792388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1186668770474646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37342d79a265c84ea0c585502c9af48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - It seems like you haven't played the game before.
+  - Would you like to play the tutorial?
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  ButtonTexts:
+  - Yes
+  - No
+  CancelButtonIndex: 1
+--- !u!114 &114863307507744110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1547446559188424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e99ec332f16924690f15d65ba6b7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - Look around for the house indicated with the arrow.
+  - Once you have found it, fire at it using {Launch}.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  TargetPosition: {x: -11.3, y: 0, z: 25}
+  IndicatorOffset: 20
+  Indicator: {fileID: 100000, guid: 3aee32cfd55a8a44784d590c182c1ea1, type: 3}
+--- !u!114 &114900830457933850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1339846723964720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - 'Welcome to <i>Megaton: Total Destruction</i>!'
+  - This is a game about blowing stuff up to get as much money as possible.
+  - You start the game in <concept>targeting mode</concept>, which is where you plan
+    where to attack to maximise your score.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: -20
+    width: 250
+    height: 300
+  PauseGame: 0
+  DisableInputs: 1
+  UseHighlight: 0
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  HighlightColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &114904755096413298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160002317073954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e101d24b9ef4b4c8e0ba6a2101d614, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText: []
+  PanelRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+--- !u!114 &114995384281391586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1931443642062318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7f83c7486dc97044ae8e0f83241cf0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText:
+  - The highlighted target indicates approximately where your chosen bomb will hit.
+  - The controls to position this will be introduced now.
+  PanelRect:
+    serializedVersion: 2
+    x: -200
+    y: 0
+    width: 250
+    height: 300
+  PauseGame: 0
+  DisableInputs: 1
+  UseHighlight: 1
+  HighlightAnchor: 4
+  HighlightRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 120
+    height: 120
+  HighlightColor: {r: 1, g: 0, b: 0, a: 1}

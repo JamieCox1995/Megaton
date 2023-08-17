@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Test Skybox
+  m_Shader: {fileID: 4800000, guid: 68357f101267ccc499159d37e363e74c, type: 3}
+  m_ShaderKeywords: ANGULAR_CORRECTION USE_GRADIENT_TEXTURE USE_GROUND_REFLECTION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 28051697977544580}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BandCount: 16
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GroundBlend: 0.01
+    - _GroundReflectivity: 0.05
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SunRadius: 2
+    - _UVSec: 0
+    - _UseAdvancedColors: 1
+    - _UseAngularCorrection: 1
+    - _UseGroundReflection: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GroundColor: {r: 0.19607845, g: 0.15294118, b: 0.1254902, a: 0}
+    - _SkyColor1: {r: 0.25962368, g: 0.58446425, b: 0.7205882, a: 0}
+    - _SkyColor2: {r: 3, g: 0.5081136, b: 0.22058827, a: 0}
+    - _SunColor: {r: 5, g: 2.9399993, b: 1.7279416, a: 0}
+--- !u!28 &28051697977544580
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Gradient_Tex
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 32a82eab9609ee5b9231880e15c44355
+  serializedVersion: 2
+  m_Width: 512
+  m_Height: 1
+  m_CompleteImageSize: 2048
+  m_TextureFormat: 5
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapMode: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 2048
+  _typelessdata: 004295b8004295b8004295b8004296b8004296b9004396b9004396b9004396b9004396ba004397ba004397ba004397ba004397ba004397bb004398bb004398bb004398bb004398bc004498bc004498bc004499bc004499bc004499bd004499bd004499bd00449abd00449abe00449abe00449abe00449abe00449abf00449bbf00459bbf00459bbf00459bbf00459bc000459cc000459cc000459cc000459cc100459cc100459cc100459dc100459dc100459dc200459dc200469dc200469ec200469ec300469ec300469ec300469ec300469ec300469fc400469fc400469fc400469fc400469fc50046a0c50046a0c50047a0c50047a0c60047a0c60047a0c60047a1c60047a1c60047a1c70047a1c70047a1c70047a1c70047a2c80047a2c80047a2c80047a2c80048a2c80048a3c90048a3c90048a3c90048a3c90048a3ca0048a3ca0048a4ca0048a4ca0048a4ca0048a4cb0048a4cb0048a5cb0048a5cb0049a5cc0049a5cc0049a5cc0049a5cc0049a6cd0049a6cd0049a6cd0049a6cd0049a6cd0049a7ce0049a7ce0049a7ce0049a7ce004aa7cf004aa7cf004aa8cf004aa8cf004aa8cf004aa8d0004aa8d0004aa9d0004aa9d0004aa9d1004aa9d1004aa9d1004aa9d1004aaad1004baad2004baad2004baad2004baad2004babd3004babd3004babd3004babd3004babd4004babd4004bacd4004bacd4004bacd4004bacd5004cacd5004cadd5004cadd5004cadd6004cadd6004cadd6004cadd6004caed6004caed7004caed7004caed7004caed7004caed8004cafd8004dafd8004dafd8004dafd8004dafd9004db0d9004db0d9004db0d9004db0da004db0da004db0da004db1da004db1db004db1db004db1db004eb1db004eb2db004eb2dc004eb2dc004eb2dc004eb2dc004eb2dd004eb3dd004eb3dd004eb3dd004eb3dd004eb3de004eb4de004eb4de004fb4de004fb4df004fb4df004fb4df004fb5df004fb5df004fb5e0004fb5e0004fb5e0004fb6e0004fb6e1004fb6e1004fb6e1004fb6e10050b6e20050b7e20050b7e20050b7e20050b7e20050b7e30050b8e30050b8e30050b8e30050b8e40050b8e40050b8e40050b9e40051b9e40051b9e50051b9e50051b9e50051b9e50051bae60051bae60051bae60052bae60053bbe60054bbe60054bce70055bce70056bce70057bde70058bde70058bee70059bee8005abee8005bbfe8005bbfe8005cc0e8005dc0e8005ec0e8005fc1e9005fc1e90060c2e90061c2e90062c2e90063c3e90063c3ea0064c4ea0065c4ea0066c4ea0067c5ea0067c5ea0068c6ea0069c6eb006ac6eb006bc7eb006bc7eb006cc8eb006dc8eb006ec8ec006fc9ec006fc9ec0070caec0071caec0072caec0073cbec0073cbed0074cced0075cced0076cced0077cded0077cded0078ceee0079ceee007aceee007acfee007bcfee007cd0ee007dd0ee007ed0ef007ed1ef007fd1ef0080d2ef0081d2ef0082d2ef0082d3f00083d3f00084d4f00085d4f00086d4f00086d5f00087d5f00088d6f10089d6f1008ad6f1008ad7f1008bd7f1008cd8f1008dd8f2008ed8f2008ed9f2008fd9f20090daf20091daf20092daf20092dbf30093dbf30094dcf30095dcf30096dcf30096ddf30097ddf40098def40099def4009adef4009adff4009bdff4009ce0f4009de0f5009de0f5009ee1f5009fe1f500a0e2f500a1e2f500a1e2f600a2e3f600a3e3f600a4e4f600a5e4f600a5e4f600a6e5f600a7e5f700a8e6f700a9e6f700a9e6f700aae7f700abe7f700ace8f800ade8f800ade8f800aee9f800afe9f800b0eaf800b1eaf800b1eaf900b2ebf900b3ebf900b4ecf900b5ecf900b5ecf900b6edfa00b7edfa00b8eefa00b9eefa00b9eefa00baeffa00bbeffa00bcf0fb00bcf0fb00bdf0fb00bef1fb00bff1fb00c0f2fb00c0f2fc00c1f2fc00c2f3fc00c3f3fc00c4f4fc00c4f4fc00c5f4fc00c6f5fd00c7f5fd00c8f6fd00c8f6fd00c9f6fd00caf7fd00cbf7fe00ccf8fe00ccf8fe00cdf8fe00cef9fe00cff9fe00d0fafe00d0faff00d1faff00d2fbff00d3fbff00d4fcff00d4fcff00d5fcff00d6fdff00d7fdff00d8feff00d8feff00d9feff00daffff00dbffff00dbffff00dcffff00ddffff00deffff00dfffff00dfffff00e1ffff00e2fffd00e4fffb00e5fef800e6fef600e8fdf300e9fcf100eafbef00ecfaec00edfaea00eff9e800f0f8e500f1f7e300f3f6e100f4f6de00f5f5dc00f7f4da00f8f3d700f9f3d500fbf2d300fcf1d000fef0ce00ffefcc00ffefc900ffeec700ffedc500ffecc200ffebc000ffebbd00ffeabb00ffe9b900ffe8b600ffe7b400ffe7b200ffe6af00ffe5ad00ffe4ab00ffe3a800ffe3a600ffe2a400ffe1a100ffe09f00ffe09d00ffdf9a00ffde9800ffdd9600ffdc9300ffdc9100ffdb8f00ffda8c00ffd98a00ffd88700ffd88500ffd78300ffd68000ffd57e00ffd47c00ffd47900ffd37700ffd27500ffd17200ffd17000ffd06e00ffcf6b00ffce6900ffcd6700ffcd6400ffcc6200ffcb6000ffca5d00ffc95b00ffc95900ffc85600ffc75400ffc65200ffc54f00ffc54d00ffc34d00ffc24c00ffc14c00ffbf4c00ffbe4b00ffbd4b00ffbb4a00ffba4a00ffb94a00ffb74900ffb64900ffb54800ffb34800ffb24700ffb14700ffb04700ffae4600ffad4600ffac4500ffaa4500ffa94500ffa84400ffa64400ffa54300ffa44300ffa24300ffa14200ffa04200ff9e4100ff9d4100ff9c4000ff9b4000ff994000ff983f00ff973f00ff953e00ff943e00ff933e00ff913d00ff903d00ff8f3c00ff8d3c00ff8c3c00ff8b3b00ff893b00ff883a00ff873a00ff863900ff843900ff8339
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!114 &114373717585115758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80112e227c43c547a23d10023182d30, type: 3}
+  m_Name: Gradient
+  m_EditorClassIdentifier: 
+  _start:
+    t: 0
+    color: {r: 0.25962368, g: 0.58446425, b: 0.7205882, a: 0}
+  _end:
+    t: 1
+    color: {r: 3, g: 0.5081136, b: 0.22058827, a: 0}
+  _middle:
+  - t: 0.4
+    color: {r: 0.31764707, g: 0.7294118, b: 0.90196085, a: 0}
+  - t: 0.75
+    color: {r: 0.8763235, g: 1.01, b: 1.01, a: 0}
+  - t: 0.9
+    color: {r: 1.2881029, g: 0.77181655, b: 0.30308303, a: 0}

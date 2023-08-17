@@ -1,0 +1,10 @@
+{
+    "name": "TotalDistraction.ServiceLocation.Editor",
+    "references": [
+        "TotalDistraction.ServiceLocation"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

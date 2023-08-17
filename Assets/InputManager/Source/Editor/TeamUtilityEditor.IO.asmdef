@@ -1,0 +1,10 @@
+{
+    "name": "TeamUtilityEditor.IO",
+    "references": [
+        "TeamUtility.IO"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

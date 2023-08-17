@@ -1,0 +1,8 @@
+{
+    "name": "TeamUtility.IO.Addons",
+    "references": [
+        "TeamUtility.IO"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
